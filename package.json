@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A backend development project.",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/index.js"
   },
@@ -14,5 +14,9 @@
     "mongoose"
   ],
   "author": "Vivek Anand",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1"
+  }
 }
